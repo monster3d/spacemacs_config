@@ -34,6 +34,7 @@ values."
      yaml
      python
      neotree
+     indent-guide
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
@@ -307,7 +308,6 @@ before packages are loaded. If you are unsure, you should try in setting them in
   )
 
 (defun dotspacemacs/user-config ()
-  (require 'indent-guide)
   (indent-guide-global-mode)
   (global-display-line-numbers-mode)
     "Configuration function for user code.
